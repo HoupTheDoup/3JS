@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.left,
+.left-top,
+.right {
+    position: absolute;
+    color: #fff;
+    font-family: Geneva, sans-serif;
+}
+
+.left-top {
+    top: 1em;
+    left: 1em;
+    text-align: left;
+}
+
+.left {
+    bottom: 1em;
+    left: 1em;
+    text-align: left;
+}
+
+.right {
+    bottom: 1em;
+    right: 0;
+    text-align: right;
+}
+
+a {
+    color: #c5bbff;
+}
+#lightState:hover{
+    cursor: pointer;
+}
